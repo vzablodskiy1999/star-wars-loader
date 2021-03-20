@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/star-wars-loader/static/css/main.d4f06ad9.chunk.css",
+    "main.js": "/star-wars-loader/static/js/main.3fd4849d.chunk.js",
+    "main.js.map": "/star-wars-loader/static/js/main.3fd4849d.chunk.js.map",
+    "runtime-main.js": "/star-wars-loader/static/js/runtime-main.a99e7134.js",
+    "runtime-main.js.map": "/star-wars-loader/static/js/runtime-main.a99e7134.js.map",
+    "static/js/2.1c699499.chunk.js": "/star-wars-loader/static/js/2.1c699499.chunk.js",
+    "static/js/2.1c699499.chunk.js.map": "/star-wars-loader/static/js/2.1c699499.chunk.js.map",
+    "static/js/3.e07b7db0.chunk.js": "/star-wars-loader/static/js/3.e07b7db0.chunk.js",
+    "static/js/3.e07b7db0.chunk.js.map": "/star-wars-loader/static/js/3.e07b7db0.chunk.js.map",
+    "index.html": "/star-wars-loader/index.html",
+    "static/css/main.d4f06ad9.chunk.css.map": "/star-wars-loader/static/css/main.d4f06ad9.chunk.css.map",
+    "static/js/2.1c699499.chunk.js.LICENSE.txt": "/star-wars-loader/static/js/2.1c699499.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a99e7134.js",
+    "static/js/2.1c699499.chunk.js",
+    "static/css/main.d4f06ad9.chunk.css",
+    "static/js/main.3fd4849d.chunk.js"
+  ]
+}
