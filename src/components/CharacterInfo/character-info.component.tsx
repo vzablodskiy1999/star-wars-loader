@@ -8,7 +8,7 @@ export const CharacterInfo = (props: IStarWarsCharacter) => {
     const filmNames = useMemo(() => {
         const films = ctx.films;
 
-        if (ctx.films.length) {
+        if (ctx?.films?.length) {
             return props.films.map((film: string) => films.find((item) => item.url === film)?.title);
         } 
         return [];

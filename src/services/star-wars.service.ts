@@ -1,14 +1,18 @@
-interface Response {
+export interface StarWarsServerResponse {
     count: number;
     results: any[];
 }
 
-const baseUrl = 'https://swapi.dev/api/';
+export const starWarsBaseUrl = 'https://swapi.dev/api/';
 
-export const fetchStarWarsCharacters = (page: number, query: string = ''): Promise<Response> => {
-    return fetch(baseUrl + `people/?search=${query}&page=${page}`).then((data) => data.json()).catch((e) => console.error(e));
+export const fetchStarWarsCharacters = (page: number, query: string = ''): Promise<StarWarsServerResponse> => {
+    return fetch(starWarsBaseUrl + `people/?search=${query}&page=${page}`)
+    .then((data) => data.json())
+    .catch((e) => {console.log(e.message)});
 }
 
-export const fetchStarWarsFilms = (): Promise<Response> => {
-    return fetch(baseUrl + 'films/').then((data) => data.json()).catch((e) => console.error(e));
+export const fetchStarWarsFilms = (): Promise<StarWarsServerResponse> => {
+    return fetch(starWarsBaseUrl + 'films/')
+    .then((data) => data.json())
+    .catch((e) => {console.log(e.message)});
 }

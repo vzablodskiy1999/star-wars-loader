@@ -9,6 +9,7 @@ export const SearchInput = (props: Props) => {
     return (
         <InputGroup>
             <FormControl
+                data-testid="search-input"
                 placeholder="Start typing your favorite character name and we will upload details..."
                 onChange={(e) => {
                     props.onChange(e.target.value);

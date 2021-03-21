@@ -50,14 +50,14 @@ function App() {
     if (pages > 1) {
       for (let i = 1; i <= pages; i ++) {
         items.push(
-          <Pagination.Item key={i} active={activePage === i} onClick={() => {
+          <Pagination.Item key={i} active={activePage === i} data-testid="pagination-item" onClick={() => {
             if (activePage !== i) { 
               setActivePage(i);
               fetchCharactersAndSetContext(i, query);
             }
           }}>
             {i}
-          </Pagination.Item>,
+          </Pagination.Item>
         )
       }
     }
